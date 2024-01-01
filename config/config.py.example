@@ -1,0 +1,9 @@
+class BaseConfig:
+  PORT = 8080
+  KEYS_LOCATION = 'path_to_your_secrets_keys'
+
+class DevelopmentConfig(BaseConfig):
+  DEBUG = True
+    
+class ProductionConfig(BaseConfig):
+  DEBUG = False
