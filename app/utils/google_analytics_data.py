@@ -5,8 +5,9 @@ from google.analytics.data_v1beta.types import (
     Metric,
     RunReportRequest,
 )
+from config.config import BaseConfig
 
-os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = 'keys.json'
+os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = BaseConfig.KEYS_LOCATION
 
 client = BetaAnalyticsDataClient()
 
