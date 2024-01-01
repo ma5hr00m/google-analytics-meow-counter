@@ -42,3 +42,9 @@ The returned data should be in a format similar to the following:
   "screenPageViews": "840"
 }
 ```
+
+## Todo List
+
+- [ ] Docker deploy
+- [ ] add meow image dispaly (important)
+- [ ] enhanced functionality
